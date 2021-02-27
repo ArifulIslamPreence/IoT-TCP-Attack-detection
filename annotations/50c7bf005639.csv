@@ -4,9 +4,9 @@
 1527865835,1527866436,localTcpPort9999|Tcpfeatures|Localfeatures|Allfeatures|LocalTCPPort50443|9999IP192.168.1.227,TcpSynDevice1L2D
 1527867446,1527868047,localTcpPort9999|Tcpfeatures|Localfeatures|Allfeatures|LocalTCPPort50443|9999IP192.168.1.227,TcpSynDevice10L2D
 1527869057,1527869657,localTcpPort9999|Tcpfeatures|Localfeatures|Allfeatures|LocalTCPPort50443|9999IP192.168.1.227,TcpSynDevice100L2D
-1527928594,1527929195,localIcmpPortAllIP192.168.1.1,Icmpfeatures|Localfeatures|Allfeatures|LocalICMPPortALL,PingOfDeath1L2D
-1527930207,1527930807,localIcmpPortAllIP192.168.1.1,Icmpfeatures|Localfeatures|Allfeatures|LocalICMPPortALL,PingOfDeath10L2D
-1527931814,1527932415,localIcmpPortAllIP192.168.1.1,Icmpfeatures|Localfeatures|Allfeatures|LocalICMPPortALL,PingOfDeath100L2D
+1527928594,1527929195,localIcmpPortAllIP192.168.1.1|Icmpfeatures|Localfeatures|Allfeatures|LocalICMPPortALL,PingOfDeath1L2D
+1527930207,1527930807,localIcmpPortAllIP192.168.1.1|Icmpfeatures|Localfeatures|Allfeatures|LocalICMPPortALL,PingOfDeath10L2D
+1527931814,1527932415,localIcmpPortAllIP192.168.1.1|Icmpfeatures|Localfeatures|Allfeatures|LocalICMPPortALL,PingOfDeath100L2D
 1527897987,1527898587,localTcpPort9999|Tcpfeatures|Localfeatures|Allfeatures|LocalTCPPort8000|9999IP192.168.1.175,TcpSynReflection100L2D2L
 1527894761,1527895361,localTcpPort9999|Tcpfeatures|Localfeatures|Allfeatures|LocalTCPPort8000|9999IP192.168.1.175,TcpSynReflection1L2D2L
 1527896376,1527896976,localTcpPort9999|Tcpfeatures|Localfeatures|Allfeatures|LocalTCPPort8000|9999IP192.168.1.175,TcpSynReflection10L2D2L
