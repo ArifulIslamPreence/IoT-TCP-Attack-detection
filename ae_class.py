@@ -9,16 +9,16 @@ class AE(nn.Module):
     def __init__(self, **kwargs):
         super().__init__()
         self.encoder_hidden_layer = nn.Linear(
-            in_features=kwargs["input_shape"], out_features=128
+            in_features=kwargs["input_shape"], out_features=
         )
         self.encoder_output_layer = nn.Linear(
-            in_features=128, out_features=128
+            in_features=, out_features=
         )
         self.decoder_hidden_layer = nn.Linear(
-            in_features=128, out_features=128
+            in_features=, out_features=
         )
         self.decoder_output_layer = nn.Linear(
-            in_features=128, out_features=kwargs["input_shape"]
+            in_features=, out_features=kwargs["input_shape"]
         )
 
     def forward(self, features):

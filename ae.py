@@ -31,7 +31,7 @@ for epoch in range(epochs):
     loss = 0
     for batch_features, _ in tr_loader:
 
-        batch_features = batch_features.view(-1, 784).to(device)
+        batch_features = batch_features.view(-1,"").to(device)
         optimizer.zero_grad()
 
         outputs = model(batch_features)
@@ -44,5 +44,5 @@ for epoch in range(epochs):
     
     loss = loss / len(tr_loader)
     
-    print("epoch : {}/{}, recon loss = {:.8f}".format(epoch + 1, epochs, loss))
+    print("epoch : {}/{}, loss = {:.3f}".format(epoch + 1, epochs, loss))
 
