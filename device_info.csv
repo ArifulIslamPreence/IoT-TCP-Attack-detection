@@ -1,0 +1,11 @@
+﻿mac,ip,device_type
+ec:1a:59:83:28:11,192.168.1.165,WEMO Motion Sensor
+ec:1a:59:79:f4:89,192.168.1.223,WEMO Power Switch
+00:16:6c:ab:6b:88,192.168.1.248,Samsung Camera
+50:c7:bf:00:56:39,192.168.1.227,TP Link Plug
+70:ee:50:18:34:43,192.168.1.241,Netatmo Camera
+00:17:88:2B:9A:25,192.168.1.129,Huebulb
+44:65:0D:56:CC:D3,192.168.1.239,AmazonEcho
+F4:F5:D8:8F:0A:3C,192.168.1.119,chromecast
+74:C6:3B:29:D7:1D,192.168.1.163,ihome
+D0:73:D5:01:83:08,192.168.1.118,lifx
