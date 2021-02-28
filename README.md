@@ -1,5 +1,4 @@
-# iot-traffic-analysis
-
+# Detection of malicious IoT Traffic
 PCAP dataset can be downloaded from here --> https://iotanalytics.unsw.edu.au/attack-data
 
 Flow generators Argus and Tranalyzer were used to reduce the raw pcap packets to flows.
