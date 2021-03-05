@@ -13,7 +13,13 @@ for f in attack/pcap/*.pcap; do t2 -r "$f" -w attack/tran/. & done
 ```
 ### Argus
 ```
-#TODO
+# Run these bash commands to generate Argus flows
+sudo /usr/local/sbin/argus -mJAZR -r {pcap_file} -w output.argus
+# To get output in Unix time 
+RA_PRINT_UNIX_TIME=yes
+# Finally extract the flow information
+ra -u -s +1dur dur,flgs,proto,saddr,smac,sport,dir,daddr,dmac,dport,runtime,mean,sum,min,max,stos,dtos,pkts,spkts,dpkts,sttl,dttl,appbytes,bytes,sappbytes,dbytes,dappbytes,load,sload,dload,loss,sloss,dloss,rate,sintpkt,sintpktact,sintpktidl,dintpkt,dintpktact,dintpktidl,sjit,djit,smeansz,dmeansz,smaxsz,dmaxsz,sminsz,dminsz,label -c ',' -r output.argus > output.csv
+
 ```
 
 ## Project Structure
